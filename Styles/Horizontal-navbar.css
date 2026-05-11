@@ -3,7 +3,7 @@ div {
 }
 
 .horizontal-nav {
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   display: flex;
   flex-direction: row;
   height: 55px;
@@ -23,9 +23,13 @@ div {
 }
 
 .right-section {
-  background-color: rgb(255, 0, 106);
-  width: 240px;
+  /* background-color: rgb(255, 0, 106); */
+  width: 202px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
+
 
 .hamburger {
   height: 18px;
@@ -48,4 +52,28 @@ div {
   width: 15px;
   color: var(--stats-color);
   font-weight: 400;
+}
+
+.create-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:var(--stats-color);
+  font-size: 13px;
+  font-weight: bold;
+  padding: 6px 15px 6px 15px; 
+  border-radius: 20px;
+}
+.plus{
+  height: 20px;
+  margin-right: 10px;
+}
+.bell{
+  height: 23px;
+}
+.profile{
+  height: 32px;
+  border-radius: 50%;
+  margin-left: 15px;
+
 }
