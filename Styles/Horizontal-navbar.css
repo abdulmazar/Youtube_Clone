@@ -1,6 +1,7 @@
-div{
-  border:1px solid black;
+div {
+  border: 1px solid black;
 }
+
 .horizontal-nav {
   background-color: blueviolet;
   display: flex;
@@ -9,16 +10,42 @@ div{
 }
 
 .left-section {
-  background-color: aqua;
-  width: 190px;
+  /* background-color: aqua; */
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .middle-section {
-  background-color: rgb(27, 196, 247);
+  background-color: rgb(12, 198, 255);
   flex: 1;
 }
 
 .right-section {
   background-color: rgb(255, 0, 106);
   width: 240px;
+}
+
+.hamburger {
+  height: 18px;
+  margin-left: 10px;
+}
+
+.youtube-logo {
+  height: 25px;
+}
+
+.yt-logo {
+  display: flex;
+  position: relative
+}
+.trademark {
+  position: absolute;
+  top: -8px;
+  font-size: 11px;
+  right: -15px;
+  width: 15px;
+  color: var(--stats-color);
+  font-weight: 400;
 }
