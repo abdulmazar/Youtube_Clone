@@ -1,0 +1,24 @@
+div{
+  border:1px solid black;
+}
+.horizontal-nav {
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: row;
+  height: 55px;
+}
+
+.left-section {
+  background-color: aqua;
+  width: 190px;
+}
+
+.middle-section {
+  background-color: rgb(27, 196, 247);
+  flex: 1;
+}
+
+.right-section {
+  background-color: rgb(255, 0, 106);
+  width: 240px;
+}

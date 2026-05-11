@@ -1,5 +1,6 @@
 :root{
     --theme: rgb(15, 15, 15);
+    --theme-hover:rgb(82, 82, 82);
     --text-color: rgb(251, 251,251);
     --stats-color:rgb(170,170,170);
 }
