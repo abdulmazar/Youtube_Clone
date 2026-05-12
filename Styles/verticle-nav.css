@@ -1,0 +1,30 @@
+.verticle-nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  position: fixed;
+  top:55px;
+  left:0px;
+  bottom:0px;
+  height:297px;
+  width: fit-content;
+
+}
+.verticle-nav div {
+  padding: 2px;
+  height: 80px;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.verticle-nav div img{
+  height:25px;
+}
+
+.verticle-nav div p{
+  font-size: 9px;
+  margin-top: 6px;
+}

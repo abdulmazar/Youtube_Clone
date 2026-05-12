@@ -32,7 +32,8 @@
 
 .hamburger {
   height: 18px;
-  margin-left: 10px;
+  margin-left: 2px;
+  margin-right: -8px;
 }
 
 .youtube-logo {
