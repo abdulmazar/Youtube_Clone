@@ -1,33 +1,30 @@
-div {
-  border: 1px solid black;
-}
-
 .horizontal-nav {
-  /* background-color: blueviolet; */
   display: flex;
   flex-direction: row;
   height: 55px;
+  position: fixed;
+  top:0;
+  right:0;
+  left:0;
+}
+
+.left-section,
+.middle-section,
+.right-section,
+.create-btn {
+  display: flex;
+  align-items: center;
 }
 
 .left-section {
-  /* background-color: aqua; */
   width: 200px;
-  display: flex;
-  align-items: center;
   justify-content: space-around;
 }
 
-.middle-section {
-  background-color: rgb(12, 198, 255);
-  flex: 1;
-}
 
 .right-section {
-  /* background-color: rgb(255, 0, 106); */
-  width: 202px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  width: 230px;
+  justify-content: space-evenly;
 }
 
 
@@ -44,6 +41,7 @@ div {
   display: flex;
   position: relative
 }
+
 .trademark {
   position: absolute;
   top: -8px;
@@ -54,26 +52,73 @@ div {
   font-weight: 400;
 }
 
-.create-btn{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color:var(--stats-color);
+.create-btn {
+  background-color: var(--stats-color);
   font-size: 13px;
   font-weight: bold;
-  padding: 6px 15px 6px 15px; 
+  padding: 6px 8px 6px 8px;
   border-radius: 20px;
 }
-.plus{
+
+.plus {
   height: 20px;
   margin-right: 10px;
 }
-.bell{
+
+.bell {
   height: 23px;
 }
-.profile{
+
+.profile {
   height: 32px;
   border-radius: 50%;
   margin-left: 15px;
+  margin-right: 10px;
+}
 
+.voice {
+  margin-left: 4px;
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+}
+
+.voice-img {
+  height: 22px;
+
+}
+
+.middle-section {
+  flex: 1;
+  justify-content: center;
+}
+
+.Search-box {
+  z-index: 100;
+  max-width: 550px;
+  flex: 1;
+  font-weight: bold;
+  font-size: 15px;
+  height: 38px;
+  border-radius: 30px;
+  padding-left: 15px;
+  border: 1px solid var(--stats-color);
+  width: 0px;
+}
+
+.search-icon {
+  width: 49px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: -30px;
+  margin-right: 10px;
+  border-radius: 20px;
+  border: 1px solid var(--stats-color);
+  background-color: var(--stats-color);
+}
+
+.search-img {
+  height: 23px;
 }

@@ -2,11 +2,14 @@
     --theme: rgb(15, 15, 15);
     --theme-hover:rgb(82, 82, 82);
     --text-color: rgb(251, 251,251);
-    --stats-color:rgb(114, 111, 111);
+    --stats-color:rgb(192, 191, 191);
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto,Arial, sans-serif;
+}
+body{
+    padding-top: 60px;
 }
