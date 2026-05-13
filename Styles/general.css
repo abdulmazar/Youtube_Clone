@@ -2,7 +2,7 @@
     --theme: rgb(15, 15, 15);
     --theme-hover: rgb(82, 82, 82);
     --text-color: rgb(251, 251, 251);
-    --stats-color: rgb(192, 191, 191);
+    --stats-color: rgb(165, 161, 161);
 }
 
 * {
@@ -13,5 +13,5 @@
 }
 
 body {
-    padding-top: 60px;
+    padding-left: 92px;
 }

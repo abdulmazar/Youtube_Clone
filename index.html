@@ -8,12 +8,13 @@
   <link rel="stylesheet" href="Styles/Horizontal-navbar.css">
   <link rel="stylesheet" href="Styles/verticle-nav.css">
   <link rel="stylesheet" href="Styles/general.css">
+  <link rel="stylesheet" href="Styles/video-grid.css">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
   </style>
 </head>
 
-<body>
+<body style="padding-top: 60px;">
   <div class="horizontal-nav">
 
     <div class="left-section">
@@ -27,12 +28,10 @@
     </div>
 
     <div class="middle-section">
-
       <input class="Search-box" type="text" placeholder="Search">
       <button class="search-icon">
         <img src="Images/Icons/search.png" class="search-img">
       </button>
-
       <button class="voice">
         <img src="Images/Icons/voice-search.png" class="voice-img">
       </button>
@@ -50,32 +49,188 @@
         <img src="Images/avatar/Mazar.jpg" alt="" class="profile">
       </div>
     </div>
-    <!-- Vertical Nav -->
-     
-    <div class="verticle-nav">
-     
-      <div>
-        <img src="Images/Icons/home.png">
-        <p>Home</p>
-      </div>
-      
-      <div>
-        <img src="Images/Icons/yt-shorts.png">
-        <p>Shorts</p>
-      </div>
-      
-      <div>
-        <img src="Images/Icons/subscriptions.png">
-        <p>Subscriptions</p>
-      </div>
-      
-      <div>
-        <img src="Images/Icons/user.png">
-        <p>You</p>
-      </div>
+  </div>
 
+  <!-- Vertical Nav -->
+  <div class="verticle-nav">
 
-     </div>
+    <div>
+      <img src="Images/Icons/home.png">
+      <p>Home</p>
+    </div>
+    <div>
+      <img src="Images/Icons/yt-shorts.png">
+      <p>Shorts</p>
+    </div>
+    <div>
+      <img src="Images/Icons/subscriptions.png">
+      <p>Subscriptions</p>
+    </div>
+    <div>
+      <img src="Images/Icons/user.png">
+      <p>You</p>
+    </div>
+  </div>
+
+  <!-- MAIN VIDEO GRID -->
+
+  <div class="video-grid">
+
+    <div class="video-layout">
+      <div class="thumbnail">
+        <img src="Images/thumbnails/nyc.webp">
+        <div class="video-duration">
+          <p class="time">1:47:06</p>
+        </div>
+      </div>
+      <div class="video-data">
+        <div class="channel-icon">
+          <img src="Images/avatar/channels4_profile_002.jpg" alt="">
+        </div>
+        <div class="video-stats">
+          <div class="video-title">
+            <p class="title">Master Git & GitHub in One Video! 🚀 Level Up Your Skills Now!</p>
+
+            <img src="Images/Icons/icon.png" alt="" class="dots">
+
+          </div>
+          <div class="video-text">
+            <p class="channel-name"> Sheryians Coding School</p>
+
+            <p class="video-veiws">247K views &#8226; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-layout">
+      <div class="thumbnail">
+        <img src="Images/thumbnails/nyc2.webp">
+        <div class="video-duration">
+          <p class="time">9:34</p>
+        </div>
+      </div>
+      <div class="video-data">
+        <div class="channel-icon">
+          <img src="Images/avatar/channels4_profile.jpg" alt="">
+        </div>
+
+        <div class="video-stats">
+          <div class="video-title">
+            <p class="title">Everyone Took CSE Now What ?</p>
+            <img src="Images/Icons/icon.png" alt="" class="dots">
+          </div>
+
+          <div class="video-text">
+            <p class="channel-name video-text"> Not Your College</p>
+            <p class="video-veiws video-text">9.6K views &#8226; 3 days ago</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="video-layout">
+      <div class="thumbnail">
+        <img src="Images/thumbnails/js.webp">
+        <div class="video-duration">
+          <p class="time">15:30:39</p>
+        </div>
+      </div>
+      <div class="video-data">
+        <div class="channel-icon">
+          <img src="Images/avatar/channels4_profile_003.jpg" alt="">
+        </div>
+        <div class="video-stats">
+          <div class="video-title">
+            <p class="title">From Zero to Full Stack: Master JavaScript and Create Dynamic Web Apps</p>
+            <img src="Images/Icons/icon.png" alt="" class="dots">
+          </div>
+          <div class="video-text">
+            <p class="channel-name"> HuXn WebDev</p>
+            <!-- <img style="display:inline-block;" src="Images/Icons/check.png" alt="" class="tick"> -->
+            <p class="video-veiws">1.1M views &#8226; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-layout">
+      <div class="thumbnail">
+        <img src="Images/thumbnails/mern.jpg">
+        <div class="video-duration">
+          <p class="time">1:47:06</p>
+        </div>
+      </div>
+      <div class="video-data">
+        <div class="channel-icon">
+          <img src="Images/avatar/channels4_profile_002.jpg" alt="">
+        </div>
+        <div class="video-stats">
+          <div class="video-title">
+            <p class="title">MERN Stack Full Course | Complete Full Stack Developer Roadmap 🚀</p>
+            <img src="Images/Icons/icon.png" alt="" class="dots">
+          </div>
+          <div class="video-text">
+            <p class="channel-name"> Sheryians Coding School</p>
+            <!-- <img style="display:inline-block;" src="Images/Icons/check.png" alt="" class="tick"> -->
+            <p style="font-weight: bold;" class="video-veiws">View full course</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video-layout">
+      <div class="thumbnail">
+        <img src="Images/thumbnails/react.webp">
+        <div class="video-duration">
+          <p class="time">6:38</p>
+        </div>
+      </div>
+      <div class="video-data">
+        <div class="channel-icon">
+          <img src="Images/avatar/channels4_profile_005.jpg" alt="">
+        </div>
+        <div class="video-stats">
+          <div class="video-title">
+            <p class="title">All The JavaScript You Need BEFORE React</p>
+            <img style="margin-left:20px;" src="Images/Icons/icon.png" alt="" class="dots">
+          </div>
+          <div class="video-text">
+            <p class="channel-name"> Coding2GO</p>
+            <!-- <img style="display:inline-block;" src="Images/Icons/check.png" alt="" class="tick"> -->
+            <p class="video-veiws">141K views &#8226; 4 months ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-layout">
+      <div class="thumbnail">
+        <img src="Images/thumbnails/book.webp">
+        <div class="video-duration">
+          <p class="time">7:38</p>
+        </div>
+      </div>
+      <div class="video-data">
+        <div class="channel-icon">
+          <img src="Images/avatar/channels4_profile_004.jpg" alt="">
+        </div>
+        <div class="video-stats">
+          <div class="video-title">
+            <p class="title">The book that fixed my attention span.</p>
+            <img style="margin-left:20px;" src="Images/Icons/icon.png" alt="" class="dots">
+          </div>
+          <div class="video-text">
+            <p class="channel-name">trevor warenfelt</p>
+            <!-- <img style="display:inline-block;" src="Images/Icons/check.png" alt="" class="tick"> -->
+            <p class="video-veiws">334K views &#8226; 1 month ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
 </body>
 
 </html>
