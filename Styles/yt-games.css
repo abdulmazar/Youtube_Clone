@@ -1,8 +1,12 @@
+body {
+  padding-bottom: 2000px;
+}
 
 .games-header {
   display: flex;
   margin-top: 40px;
-  padding-left: 73px;
+  margin-bottom: 15px;
+  padding-left: 53px;
   flex-direction: row;
   height: 50px;
 }
@@ -51,5 +55,68 @@
 .close {
   margin-right: 10px;
   border: none;
+}
 
+.games {
+  display: grid;
+  padding-bottom: 35px;
+  grid-template-columns: repeat(5, 1fr);
+  border-bottom: 1px solid gray;
+}
+
+.game-card {
+  height: fit-content;
+}
+
+.game-interface {
+  height: 423px;
+  background-color: rgb(126, 109, 122);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.game-thumbnail img {
+  height: 360px;
+  border-radius: 5px;
+  width: 100%;
+  filter: brightness(1.1);
+  filter: contrast(1.2);
+}
+
+.play {
+  background-color: white;
+  border: none;
+  width: 100%;
+  font-weight: 700;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 20px;
+}
+
+.game-name {
+  margin-top: 6px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.game-name img {
+  height: 17px;
+  margin-top: 5px;
+  margin-right: 8px;
+}
+
+.game-name .text {
+  margin-left: 3px;
+}
+
+.game-name .name {
+  font-weight: bold;
+}
+
+.game-name .players {
+  font-size: small;
+  color: gray;
+  margin-top: 3px;
+  font-weight: 600;
 }
