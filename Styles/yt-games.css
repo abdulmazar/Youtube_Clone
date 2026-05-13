@@ -59,42 +59,37 @@ body {
 
 .games {
   display: grid;
-  padding-bottom: 35px;
   grid-template-columns: repeat(5, 1fr);
-  border-bottom: 1px solid gray;
-}
-
-.game-card {
-  height: fit-content;
 }
 
 .game-interface {
-  height: 423px;
+  height: fit-content;
   background-color: rgb(126, 109, 122);
   border-radius: 10px;
-  padding: 10px;
+  padding: 9px;
 }
 
 .game-thumbnail img {
-  height: 360px;
-  border-radius: 5px;
+  height: 100%;
   width: 100%;
+  border-radius: 5px;
   filter: brightness(1.1);
   filter: contrast(1.2);
 }
 
 .play {
   background-color: white;
+  mix-blend-mode: screen;
   border: none;
   width: 100%;
   font-weight: 700;
-  padding: 10px;
-  margin: 5px 0;
+  padding: 10px 15px;
+  margin-top: 4px;
   border-radius: 20px;
 }
 
 .game-name {
-  margin-top: 6px;
+  margin-top: 8px;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
