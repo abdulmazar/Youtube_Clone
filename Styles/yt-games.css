@@ -1,6 +1,5 @@
 .games-header {
   padding-top: 15px;
-  border-top: 1px solid gray;
   display: flex;
   margin-top: 40px;
   margin-bottom: 15px;
@@ -76,13 +75,14 @@
 }
 
 .game-card .game-interface {
-  height: fit-content;
+  height: auto;
   border-radius: 10px;
   padding: 9px;
 }
 
 .game-thumbnail img {
   width: 100%;
+  height: auto-fit;
   border-radius: 5px;
   filter: brightness(1.1);
   filter: contrast(1.2);
