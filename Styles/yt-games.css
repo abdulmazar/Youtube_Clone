@@ -1,16 +1,14 @@
-body {
-  padding-bottom: 100px;
-}
-hr{
-  margin-top: 40px;
-}
 .games-header {
+  padding-top: 15px;
+  border-top: 1px solid gray;
   display: flex;
   margin-top: 40px;
   margin-bottom: 15px;
   padding-left: 53px;
   flex-direction: row;
-  height: 50px;
+  height: fit-content;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .games-header .text {
@@ -20,7 +18,7 @@ hr{
 
 .text .title {
   font-weight: bold;
-  font-family: changa one;
+  font-family: arial;
   font-size: 24px;
 }
 
@@ -31,14 +29,16 @@ hr{
 }
 
 .game-buttons {
-  width: 180px;
+  width: 200px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  flex-shrink: 0px;
 }
 
 .game-buttons button {
+  cursor: pointer;
   background-color: rgb(255, 255, 255);
 }
 
@@ -54,6 +54,10 @@ hr{
   border-radius: 30px;
 }
 
+.game-buttons .view-all:hover {
+  background-color: var(--hover);
+}
+
 .close {
   margin-right: 10px;
   border: none;
@@ -66,7 +70,12 @@ hr{
   margin-right: 14px;
 }
 
-.game-interface {
+.game-card:hover {
+  width: 101%;
+  height: 101%;
+}
+
+.game-card .game-interface {
   height: fit-content;
   border-radius: 10px;
   padding: 9px;
@@ -80,7 +89,8 @@ hr{
 }
 
 .play {
-  background-color: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.8);
   mix-blend-mode: screen;
   border: none;
   width: 100%;
@@ -88,6 +98,10 @@ hr{
   padding: 14px 15px;
   margin-top: 4px;
   border-radius: 20px;
+}
+
+.play:hover {
+  background-color: white;
 }
 
 .game-name {
@@ -99,8 +113,6 @@ hr{
 
 .game-name img {
   height: 17px;
-  margin-top: 5px;
-  margin-right: 8px;
 }
 
 .game-name .text {
@@ -109,6 +121,18 @@ hr{
 
 .game-name .name {
   font-weight: bold;
+}
+
+.menu {
+  cursor: pointer;
+  padding-top: 5px;
+  padding: 6px 10px;
+  padding-top: 10px;
+  border-radius: 100%;
+}
+
+.menu:hover {
+  background-color: var(--hover);
 }
 
 .game-name .players {

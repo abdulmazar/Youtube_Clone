@@ -1,9 +1,11 @@
 .horizontal-nav {
   display: flex;
   flex-direction: row;
-  height: 55px;
+  height: fit-content;
   position: fixed;
   top: 0;
+  padding-top: 6px;
+  padding-bottom: 6px;
   right: 0;
   left: 0;
   z-index: 100;
@@ -54,11 +56,16 @@
 }
 
 .create-btn {
-  background-color: var(--stats-color);
+  background-color: rgb(222, 219, 219);
   font-size: 13px;
   font-weight: bold;
   padding: 6px 8px 6px 8px;
   border-radius: 20px;
+  cursor: pointer;
+}
+
+.create-btn:hover {
+  background-color: var(--hover);
 }
 
 .plus {
@@ -68,6 +75,15 @@
 
 .bell {
   height: 23px;
+}
+
+.bell-icon:hover {
+  background-color: var(--hover);
+}
+
+.bell-icon {
+  padding: 5px;
+  border-radius: 100%;
 }
 
 .profile {
@@ -95,6 +111,8 @@
 }
 
 .Search-box {
+  border: 1px solid var(--stats-color);
+  border-right: 17px solid white;
   z-index: 100;
   max-width: 550px;
   flex: 1;
@@ -103,21 +121,25 @@
   height: 38px;
   border-radius: 30px;
   padding-left: 15px;
-  border: 1px solid var(--stats-color);
   width: 0px;
 }
 
 .search-icon {
   width: 49px;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 5px;
+  padding-bottom: 4.5px;
   padding-left: 40px;
   padding-right: 40px;
   margin-left: -30px;
   margin-right: 10px;
   border-radius: 20px;
   border: 1px solid var(--stats-color);
-  background-color: var(--stats-color);
+  background-color: white;
+  transition: background-color 0.15s;
+}
+
+.search-icon:hover {
+  background-color: var(--hover);
 }
 
 .search-img {

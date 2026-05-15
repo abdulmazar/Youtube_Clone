@@ -2,7 +2,7 @@
 
 :root {
     --theme: rgb(15, 15, 15);
-    --theme-hover: rgb(82, 82, 82);
+    --hover: rgba(225, 223, 223, 0.853);
     --text-color: rgb(251, 251, 251);
     --stats-color: rgb(165, 161, 161);
 }
@@ -12,9 +12,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto, Arial, sans-serif;
+    transition:background-color 0.3s;
 }
 
 body {
     padding-left: 92px;
     padding-top: 60px;
+    padding-bottom: 100px;
 }

@@ -1,31 +1,39 @@
-.verticle-nav{
+.verticle-nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
   position: fixed;
-  top:55px;
-  left:0px;
-  bottom:0px;
-  height:300px;
+  top: 55px;
+  padding-left: 6px;
+  left: 0px;
+  bottom: 0px;
+  height: 300px;
   margin-top: 5px;
   width: fit-content;
 }
+
+.verticle-nav div:hover {
+  background-color: var(--hover);
+}
+
 .verticle-nav div {
+  cursor: pointer;
   padding: 2px;
   height: 68px;
   border-radius: 10px;
-  width:100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.verticle-nav div img{
-  height:25px;
+
+.verticle-nav div img {
+  height: 25px;
 }
 
-.verticle-nav div p{
-  font-size: 9px;
+.verticle-nav div p {
+  font-size: 8px;
   margin-top: 6px;
 }
